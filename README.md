@@ -5,6 +5,9 @@ Requires a `config.json` file in the root that looks like this:
 
 ```json
 {
+  "sample_data_rows": 1000,
+  "test_requests": 1000,
+  "request_concurrency": 100,
   "tests": [{
     "name": "Test utilizing address map (e.g., Scylla on Compose)",
     "conn": {
